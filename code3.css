@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+.main {
+    background-color: white;
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 15%;
+}
+.top {
+    display: flex;
+}
+.description {
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-left: 1.8%;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.description, .form, button, ::placeholder {
+    font-family: 'Handlee', cursive;
+}
+.form, button, ::placeholder {
+    font-weight: bold;
+}
+.logo {
+    width: 9.9%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    padding: 3%;
+    margin-left: 60%;
+}
+.form {
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+button {background-color: #D0D0D0;
+    border: none;
+    margin: 4% 0% 9% 33%;
+    padding: 1.5px auto;
+    border-bottom: black solid 1px;
+}
+#name, #email {
+    margin-left: 30px;
+}
+#text {
+    margin-left: 45px;
+}
+input:placeholder-shown {
+    border: none;
+    border-bottom: black solid 1px;
+}
+::placeholder {
+    font-size: 13px;
+}
